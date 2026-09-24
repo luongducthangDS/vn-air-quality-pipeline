@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: stg_air_quality_hourly
+    description: Hourly pollutant concentrations (µg/m³) per city, Vietnam local time.
+    data_tests:
+      - unique:
+          column_name: "city || '|' || cast(measured_at as varchar)"
+    columns:
+      - name: city
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_city')
+                field: city
+      - name: measured_at
+        data_tests: [not_null]
+      - name: pm2_5
+        data_tests: [not_null]
+
+  - name: dim_city
+    columns:
+      - name: city
+        data_tests: [unique, not_null]
+
+  - name: fct_air_quality_daily
+    description: Daily city averages with QCVN 05:2023 and WHO 2021 exceedance flags.
+    data_tests:
+      - unique:
+          column_name: "city || '|' || cast(measured_date as varchar)"
+    columns:
+      - name: n_hours
+        data_tests: [not_null]
+
+  - name: fct_pm25_anomaly
+    description: Daily PM2.5 z-score vs the previous 28 complete days; is_alert = unusual spike above the national limit.

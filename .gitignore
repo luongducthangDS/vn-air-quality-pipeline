@@ -1,0 +1,9 @@
+__pycache__/
+.pytest_cache/
+*.tmp
+warehouse/air_quality.duckdb*
+warehouse/target/
+warehouse/logs/
+warehouse/dbt_packages/
+logs/
+.venv/

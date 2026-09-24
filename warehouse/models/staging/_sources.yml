@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: open_meteo
+    description: Raw Open-Meteo Air Quality API responses landed by ingest.py, one gzipped JSON per city per month.
+    tables:
+      - name: air_quality_raw
+        meta:
+          # every file has the same schema (ingest.py asks for a fixed variable list), so no union_by_name:
+          # it opens all files at once with a 16MB buffer each and runs out of memory; a month file is ~50KB.
+          external_location: "read_json('data/raw/*/*.json.gz', format = 'auto', maximum_object_size = 1048576)"

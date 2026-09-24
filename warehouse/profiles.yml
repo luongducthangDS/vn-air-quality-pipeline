@@ -1,0 +1,10 @@
+# Paths are relative to the repo root: run dbt from there (see README).
+vn_air_quality:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: warehouse/air_quality.duckdb
+      threads: 1
+      settings:
+        memory_limit: 512MB  # the whole warehouse is a few hundred k rows; keeps it runnable on a busy laptop

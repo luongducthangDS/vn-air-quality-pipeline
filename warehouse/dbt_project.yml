@@ -1,0 +1,22 @@
+name: vn_air_quality
+version: "1.0.0"
+profile: vn_air_quality
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+
+models:
+  vn_air_quality:
+    staging:
+      # table, not view: the source is ~300 JSON files; read them once, not once per test
+      +materialized: table
+    marts:
+      +materialized: table
+
+seeds:
+  vn_air_quality:
+    cities:
+      +column_types:
+        lat: double
+        lon: double
