@@ -1,5 +1,5 @@
 {
-  "data_through": "2026-10-01",
+  "data_through": "2026-10-02",
   "cities": [
     {
       "name_vi": "Hà Nội",
@@ -7,7 +7,7 @@
       "pm2_5_mean": 45.3,
       "pct_days_over_who": 98.2,
       "pct_days_over_qcvn": 33.7,
-      "days": 1519,
+      "days": 1520,
       "peak_month": 4,
       "cleanest_month": 10,
       "peak_to_low_ratio": 1.5
@@ -18,7 +18,7 @@
       "pm2_5_mean": 31.4,
       "pct_days_over_who": 87.8,
       "pct_days_over_qcvn": 12.8,
-      "days": 1519,
+      "days": 1520,
       "peak_month": 1,
       "cleanest_month": 11,
       "peak_to_low_ratio": 1.6
@@ -26,10 +26,10 @@
     {
       "name_vi": "TP. Hồ Chí Minh",
       "city": "hcmc",
-      "pm2_5_mean": 26.8,
+      "pm2_5_mean": 26.7,
       "pct_days_over_who": 90.1,
       "pct_days_over_qcvn": 3.9,
-      "days": 1519,
+      "days": 1520,
       "peak_month": 6,
       "cleanest_month": 3,
       "peak_to_low_ratio": 1.9
@@ -40,7 +40,7 @@
       "pm2_5_mean": 22.8,
       "pct_days_over_who": 64.4,
       "pct_days_over_qcvn": 5.3,
-      "days": 1519,
+      "days": 1520,
       "peak_month": 5,
       "cleanest_month": 8,
       "peak_to_low_ratio": 2.5
@@ -51,7 +51,7 @@
       "pm2_5_mean": 18.9,
       "pct_days_over_who": 63.6,
       "pct_days_over_qcvn": 0.6,
-      "days": 1519,
+      "days": 1520,
       "peak_month": 4,
       "cleanest_month": 10,
       "peak_to_low_ratio": 2.1
