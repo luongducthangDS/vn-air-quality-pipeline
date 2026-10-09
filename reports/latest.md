@@ -1,4 +1,4 @@
-# Chất lượng không khí — cập nhật đến 2026-10-07
+# Chất lượng không khí — cập nhật đến 2026-10-08
 
 _File này do GitHub Actions tự sinh mỗi ngày. Nguồn: Open-Meteo / CAMS (số liệu mô hình, không phải trạm đo)._
 
@@ -6,17 +6,17 @@ _File này do GitHub Actions tự sinh mỗi ngày. Nguồn: Open-Meteo / CAMS (
 
 | Thành phố | PM2.5 TB (µg/m³) | US AQI cao nhất | Mức | Số ngày vượt QCVN |
 |---|---:|---:|---|---:|
-| TP. Hồ Chí Minh | 32.6 | 172 | Kém | 0 |
-| Cần Thơ | 28.1 | 161 | Kém | 0 |
-| Hà Nội | 28.0 | 187 | Kém | 1 |
-| Đà Nẵng | 15.5 | 184 | Kém | 0 |
-| Hải Phòng | 14.5 | 135 | Kém cho nhóm nhạy cảm | 0 |
+| Hà Nội | 35.8 | 195 | Kém | 2 |
+| TP. Hồ Chí Minh | 31.6 | 172 | Kém | 0 |
+| Cần Thơ | 24.7 | 126 | Kém cho nhóm nhạy cảm | 0 |
+| Hải Phòng | 16.1 | 159 | Kém | 0 |
+| Đà Nẵng | 13.7 | 155 | Kém | 0 |
 
 ## Cảnh báo PM2.5 bất thường (30 ngày gần nhất)
 
 | Ngày | Thành phố | PM2.5 | Nền 28 ngày | z |
 |---|---|---:|---:|---:|
-| 2026-09-16 | Cần Thơ | 55.3 | 13.4 | 2.94 |
 | 2026-09-16 | TP. Hồ Chí Minh | 71.8 | 24.0 | 3.89 |
+| 2026-09-16 | Cần Thơ | 55.3 | 13.4 | 2.94 |
 | 2026-09-15 | TP. Hồ Chí Minh | 54.5 | 23.3 | 3.68 |
 | 2026-09-15 | Cần Thơ | 74.7 | 12.4 | 5.13 |
