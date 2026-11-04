@@ -1,5 +1,8 @@
-dbt-duckdb>=1.9
-duckdb>=1.1
-pandas>=2.2
-matplotlib>=3.8
-pytest>=8
+# Pinned to the last versions that passed CI. Unpinned duckdb moved to 2.0.0 on 2026-10-22, which
+# needs more than the 512MB limit in profiles.yml for read_json over all raw files.
+dbt-duckdb==1.11.0
+dbt-core==1.12.6
+duckdb==1.5.6
+pandas==3.0.6
+matplotlib==3.11.2
+pytest==9.1.1
