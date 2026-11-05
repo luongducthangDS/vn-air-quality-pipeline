@@ -6,10 +6,10 @@ _File này do GitHub Actions tự sinh mỗi ngày. Nguồn: Open-Meteo / CAMS (
 
 | Thành phố | PM2.5 TB (µg/m³) | US AQI cao nhất | Mức | Số ngày vượt QCVN |
 |---|---:|---:|---|---:|
-| Hà Nội | 32.2 | 153 | Kém | 1 |
-| TP. Hồ Chí Minh | 24.2 | 107 | Kém cho nhóm nhạy cảm | 0 |
-| Cần Thơ | 20.1 | 98 | Trung bình | 0 |
-| Hải Phòng | 13.9 | 98 | Trung bình | 0 |
+| Hà Nội | 31.7 | 153 | Kém | 1 |
+| TP. Hồ Chí Minh | 24.3 | 107 | Kém cho nhóm nhạy cảm | 0 |
+| Cần Thơ | 20.2 | 98 | Trung bình | 0 |
+| Hải Phòng | 13.8 | 98 | Trung bình | 0 |
 | Đà Nẵng | 10.3 | 79 | Trung bình | 0 |
 
 ## Cảnh báo PM2.5 bất thường (30 ngày gần nhất)
