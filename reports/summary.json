@@ -1,5 +1,5 @@
 {
-  "data_through": "2026-11-12",
+  "data_through": "2026-11-13",
   "cities": [
     {
       "name_vi": "Hà Nội",
@@ -7,7 +7,7 @@
       "pm2_5_mean": 45.2,
       "pct_days_over_who": 98.0,
       "pct_days_over_qcvn": 33.6,
-      "days": 1561,
+      "days": 1562,
       "peak_month": 4,
       "cleanest_month": 10,
       "peak_to_low_ratio": 1.4
@@ -17,8 +17,8 @@
       "city": "haiphong",
       "pm2_5_mean": 31.1,
       "pct_days_over_who": 87.3,
-      "pct_days_over_qcvn": 12.6,
-      "days": 1561,
+      "pct_days_over_qcvn": 12.5,
+      "days": 1562,
       "peak_month": 1,
       "cleanest_month": 11,
       "peak_to_low_ratio": 1.7
@@ -29,7 +29,7 @@
       "pm2_5_mean": 26.7,
       "pct_days_over_who": 90.2,
       "pct_days_over_qcvn": 3.8,
-      "days": 1561,
+      "days": 1562,
       "peak_month": 6,
       "cleanest_month": 3,
       "peak_to_low_ratio": 1.9
@@ -40,7 +40,7 @@
       "pm2_5_mean": 22.8,
       "pct_days_over_who": 65.2,
       "pct_days_over_qcvn": 5.1,
-      "days": 1561,
+      "days": 1562,
       "peak_month": 5,
       "cleanest_month": 8,
       "peak_to_low_ratio": 2.5
@@ -49,9 +49,9 @@
       "name_vi": "Đà Nẵng",
       "city": "danang",
       "pm2_5_mean": 18.7,
-      "pct_days_over_who": 62.6,
+      "pct_days_over_who": 62.5,
       "pct_days_over_qcvn": 0.6,
-      "days": 1561,
+      "days": 1562,
       "peak_month": 4,
       "cleanest_month": 10,
       "peak_to_low_ratio": 2.2
